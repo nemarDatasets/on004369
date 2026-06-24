@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Blink-Pause-Relation (Competing Speaker Paradigm)",
-  "description": "This dataset comprises pooled electrooculography (EOG) data from 41 participants across two competing speaker paradigm studies. Participants attended to one of two simultaneously presented audiobooks while EOG was recorded during 10-minute blocks. The dataset integrates data from Jaeger et al. (2020, n=20) with equal loudness presentation and Holtze et al. (2021, n=21) with both omnidirectional and beamforming acoustic conditions, enabling investigation of eye blink patterns and their relationship to selective auditory attention.",
-  "methods_description": "Participants performed a two-competing speaker paradigm with simultaneous presentation of two audiobooks. Participants were instructed to attend to either the left or right audio stream. The paradigm consisted of five to six 10-minute blocks of continuous audiobook presentation. In one study, both audiobooks were presented at equal loudness throughout. In the other study, blocks alternated between omnidirectional (equal loudness) and beamforming (attended stream louder) conditions, with the first block always in omnidirectional condition. EOG was recorded throughout all sessions.",
+  "description": "This dataset comprises pooled electrooculography (EOG) data from 41 participants across two studies investigating the relationship between eye blinks and attention during a competing speaker paradigm. Participants performed selective auditory attention tasks while listening to competing audiobooks, with experimental conditions varying between studies regarding sound presentation (omnidirectional versus beamforming). The dataset integrates EOG recordings from Jaeger et al. (2020) and Holtze et al. (2021) to enable comparative analysis of oculomotor behavior during dichotic listening tasks.",
+  "methods_description": "Participants (n=41; 20 from Jaeger et al. 2020, 21 from Holtze et al. 2021) performed a two-competing speaker paradigm with selective attention instructions (attend left or right audiobook). Experimental blocks consisted of 10-minute audiobook presentations. Jaeger et al. (2020) presented both audiobooks at equal loudness across six blocks. Holtze et al. (2021) alternated between omnidirectional (equal loudness) and beamforming (attended book louder) conditions across five blocks, with the first block always omnidirectional. EOG channels were recorded throughout all sessions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,7 +17,7 @@
       "term": "electrooculography"
     },
     {
-      "term": "eye blink"
+      "term": "eye blinks"
     },
     {
       "term": "selective attention"
@@ -29,7 +29,7 @@
       "term": "competing speaker paradigm"
     },
     {
-      "term": "audiobook"
+      "term": "dichotic listening"
     }
   ],
   "related_identifiers": [
