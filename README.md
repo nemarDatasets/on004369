@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004369-blue)](https://doi.org/10.82901/nemar.on004369)
+
 Within this study the EOG channels from two previous studies were pooled. 
 20 participants from Jaeger et al. (2020) and 21 from Holtze et al. (2021) were included. 
 Participants performed a two-competing speaker paradigm in both original studies. 
@@ -13,4 +15,4 @@ for the later four blocks, with one half of the participants starting with the
 omnidirectonal condition and the other half starting with the beamforming condition 
 The article (see Reference) contains all methodological details
 
-- Björn Holtze (December, 2022)
+- Bjï¿½rn Holtze (December, 2022)
