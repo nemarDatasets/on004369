@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Blink-Pause-Relation (Competing Speaker Paradigm)",
+  "description": "This dataset comprises pooled electrooculography (EOG) data from 41 participants across two competing speaker paradigm studies. Participants attended to one of two simultaneously presented audiobooks while EOG was recorded during 10-minute blocks. The dataset integrates data from Jaeger et al. (2020, n=20) with equal loudness presentation and Holtze et al. (2021, n=21) with both omnidirectional and beamforming acoustic conditions, enabling investigation of eye blink patterns and their relationship to selective auditory attention.",
+  "methods_description": "Participants performed a two-competing speaker paradigm with simultaneous presentation of two audiobooks. Participants were instructed to attend to either the left or right audio stream. The paradigm consisted of five to six 10-minute blocks of continuous audiobook presentation. In one study, both audiobooks were presented at equal loudness throughout. In the other study, blocks alternated between omnidirectional (equal loudness) and beamforming (attended stream louder) conditions, with the first block always in omnidirectional condition. EOG was recorded throughout all sessions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,42 +12,6 @@
     "Martin Bleichner": {},
     "Stefan Debener": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004369.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004369",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004369",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".elp",
-    ".fdt",
-    ".json",
-    ".mat",
-    ".md",
-    ".png",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset pools electrooculography (EOG) data from two competing speaker paradigm studies involving 41 participants. Participants attended to one of two simultaneously presented audiobooks while EOG was recorded across multiple 10-minute blocks. The dataset combines data from Jaeger et al. (2020) with equal loudness conditions and Holtze et al. (2021) with both omnidirectional and beamforming acoustic conditions, enabling investigation of eye blink patterns and their relationship to selective auditory attention.",
-  "methods_description": "EOG channels were recorded during a two-competing speaker paradigm where participants attended to either left or right audio book presentations. Jaeger et al. (2020) presented six 10-minute blocks with equal loudness. Holtze et al. (2021) presented five 10-minute blocks alternating between omnidirectional (equal loudness) and beamforming (attended stream louder) conditions, with the first block always omnidirectional.",
   "keywords": [
     {
       "term": "electrooculography"
@@ -66,5 +32,40 @@
       "term": "audiobook"
     }
   ],
-  "source_hash": "d3d072c094b88bd1c3eb8aa5edb7144feff941e784641c4c573a35b20ae1657f"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004369",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004369",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004369.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "8.6 GB (106 files)"
+  ],
+  "formats": [
+    ".elp",
+    ".fdt",
+    ".json",
+    ".mat",
+    ".md",
+    ".png",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "85b15eb72582b90a32430cf4add5ad01f4463a53c4a9ac454e4b9dcf7cf14b08"
 }
