@@ -1,30 +1,70 @@
 {
   "version": "2.0",
-  "dataset_id": "on004369",
-  "source": "openneuro",
-  "source_id": "ds004369",
+  "pipeline_stage": "validated",
   "title": "Blink-Pause-Relation (Competing Speaker Paradigm)",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Bjoern Holtze": {},
     "Marc Rosenkranz": {},
     "Martin Bleichner": {},
     "Stefan Debener": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004369.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004369",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004369",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v5.2",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".elp",
+    ".fdt",
+    ".json",
+    ".mat",
+    ".md",
+    ".png",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset pools electrooculography (EOG) data from two competing speaker paradigm studies involving 41 participants. Participants attended to one of two simultaneously presented audiobooks while EOG was recorded across multiple 10-minute blocks. The dataset combines data from Jaeger et al. (2020) with equal loudness conditions and Holtze et al. (2021) with both omnidirectional and beamforming acoustic conditions, enabling investigation of eye blink patterns and their relationship to selective auditory attention.",
+  "methods_description": "EOG channels were recorded during a two-competing speaker paradigm where participants attended to either left or right audio book presentations. Jaeger et al. (2020) presented six 10-minute blocks with equal loudness. Holtze et al. (2021) presented five 10-minute blocks alternating between omnidirectional (equal loudness) and beamforming (attended stream louder) conditions, with the first block always omnidirectional.",
+  "keywords": [
+    {
+      "term": "electrooculography"
+    },
+    {
+      "term": "eye blink"
+    },
+    {
+      "term": "selective attention"
+    },
+    {
+      "term": "auditory attention"
+    },
+    {
+      "term": "competing speaker paradigm"
+    },
+    {
+      "term": "audiobook"
+    }
+  ],
+  "source_hash": "d3d072c094b88bd1c3eb8aa5edb7144feff941e784641c4c573a35b20ae1657f"
 }
