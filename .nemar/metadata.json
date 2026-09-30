@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Blink-Pause-Relation (Competing Speaker Paradigm)",
-  "description": "This dataset comprises pooled electrooculography (EOG) data from 41 participants across two studies investigating the relationship between eye blinks and attention during a competing speaker paradigm. Participants performed selective auditory attention tasks while listening to competing audiobooks, with experimental conditions varying between studies regarding sound presentation (omnidirectional versus beamforming). The dataset integrates EOG recordings from Jaeger et al. (2020) and Holtze et al. (2021) to enable comparative analysis of oculomotor behavior during dichotic listening tasks.",
-  "methods_description": "Participants (n=41; 20 from Jaeger et al. 2020, 21 from Holtze et al. 2021) performed a two-competing speaker paradigm with selective attention instructions (attend left or right audiobook). Experimental blocks consisted of 10-minute audiobook presentations. Jaeger et al. (2020) presented both audiobooks at equal loudness across six blocks. Holtze et al. (2021) alternated between omnidirectional (equal loudness) and beamforming (attended book louder) conditions across five blocks, with the first block always omnidirectional. EOG channels were recorded throughout all sessions.",
+  "description": "This dataset pools EOG recordings from two earlier studies (20 participants from Jaeger et al., 2020 and 21 from Holtze et al., 2021) that used a competing-speaker paradigm. Participants attended to either the left or the right of two simultaneously presented audio books. The dataset supports analysis of the relation between eye blinks and speech pauses.",
+  "methods_description": "Participants listened to two competing audio books and were instructed to attend to either the left or the right one. Each session comprised five or six 10-minute blocks. In Jaeger et al. (2020) both audio books were always equally loud. In Holtze et al. (2021) blocks alternated between an omnidirectional condition (equal loudness) and a beamforming condition (attended book louder). The first block was always omnidirectional, and the condition order was counterbalanced across participants for the later four blocks.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,22 +14,24 @@
   },
   "keywords": [
     {
-      "term": "electrooculography"
+      "term": "EOG"
     },
     {
       "term": "eye blinks"
     },
     {
-      "term": "selective attention"
-    },
-    {
-      "term": "auditory attention"
-    },
-    {
       "term": "competing speaker paradigm"
     },
     {
-      "term": "dichotic listening"
+      "term": "selective auditory attention"
+    },
+    {
+      "term": "beamforming"
+    },
+    {
+      "term": "Blinking",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001767"
     }
   ],
   "related_identifiers": [
@@ -39,14 +41,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004369",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004369.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004369",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -54,7 +56,7 @@
     "eeg"
   ],
   "sizes": [
-    "8.6 GB (106 files)"
+    "8.01 GB (106 files)"
   ],
   "formats": [
     ".elp",
